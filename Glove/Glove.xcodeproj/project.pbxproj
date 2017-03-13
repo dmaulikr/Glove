@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BC52EDA18A078B200CDF217 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC52ED918A078B200CDF217 /* Cocoa.framework */; };
+		1BC52EE418A078B200CDF217 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BC52EE218A078B200CDF217 /* InfoPlist.strings */; };
+		1BC52EE618A078B200CDF217 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC52EE518A078B200CDF217 /* main.m */; };
+		1BC52EEA18A078B200CDF217 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1BC52EE818A078B200CDF217 /* Credits.rtf */; };
+		1BC52EED18A078B200CDF217 /* GLVDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC52EEC18A078B200CDF217 /* GLVDocument.m */; };
+		1BC52EF018A078B200CDF217 /* GLVDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BC52EEE18A078B200CDF217 /* GLVDocument.xib */; };
+		1BC52EF318A078B200CDF217 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BC52EF118A078B200CDF217 /* MainMenu.xib */; };
+		1BC52EF518A078B200CDF217 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BC52EF418A078B200CDF217 /* Images.xcassets */; };
+		1BC52EFC18A078B200CDF217 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC52EFB18A078B200CDF217 /* XCTest.framework */; };
+		1BC52EFD18A078B200CDF217 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC52ED918A078B200CDF217 /* Cocoa.framework */; };
+		1BC52F0518A078B200CDF217 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BC52F0318A078B200CDF217 /* InfoPlist.strings */; };
+		1BC52F0718A078B200CDF217 /* GloveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC52F0618A078B200CDF217 /* GloveTests.m */; };
+		1BC52F1118A0799300CDF217 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC52F1018A0799300CDF217 /* CoreMedia.framework */; };
+		1BC52F1318A0799F00CDF217 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC52F1218A0799F00CDF217 /* QuartzCore.framework */; };
+		1BC52F1518A079A900CDF217 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC52F1418A079A900CDF217 /* AVFoundation.framework */; };
+		1BC52F1B18A1CE3300CDF217 /* GLVOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC52F1A18A1CE3300CDF217 /* GLVOpenGLView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BC52EFE18A078B200CDF217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BC52ECE18A078B200CDF217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BC52ED518A078B200CDF217;
+			remoteInfo = Glove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BC52ED618A078B200CDF217 /* Glove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC52ED918A078B200CDF217 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1BC52EDC18A078B200CDF217 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1BC52EDD18A078B200CDF217 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1BC52EDE18A078B200CDF217 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1BC52EE118A078B200CDF217 /* Glove-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Glove-Info.plist"; sourceTree = "<group>"; };
+		1BC52EE318A078B200CDF217 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BC52EE518A078B200CDF217 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BC52EE718A078B200CDF217 /* Glove-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Glove-Prefix.pch"; sourceTree = "<group>"; };
+		1BC52EE918A078B200CDF217 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1BC52EEB18A078B200CDF217 /* GLVDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLVDocument.h; sourceTree = "<group>"; };
+		1BC52EEC18A078B200CDF217 /* GLVDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLVDocument.m; sourceTree = "<group>"; };
+		1BC52EEF18A078B200CDF217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/GLVDocument.xib; sourceTree = "<group>"; };
+		1BC52EF218A078B200CDF217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1BC52EF418A078B200CDF217 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1BC52EFA18A078B200CDF217 /* GloveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GloveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC52EFB18A078B200CDF217 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1BC52F0218A078B200CDF217 /* GloveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GloveTests-Info.plist"; sourceTree = "<group>"; };
+		1BC52F0418A078B200CDF217 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BC52F0618A078B200CDF217 /* GloveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GloveTests.m; sourceTree = "<group>"; };
+		1BC52F1018A0799300CDF217 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1BC52F1218A0799F00CDF217 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1BC52F1418A079A900CDF217 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1BC52F1918A1CE3300CDF217 /* GLVOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLVOpenGLView.h; sourceTree = "<group>"; };
+		1BC52F1A18A1CE3300CDF217 /* GLVOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLVOpenGLView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BC52ED318A078B200CDF217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC52F1518A079A900CDF217 /* AVFoundation.framework in Frameworks */,
+				1BC52F1318A0799F00CDF217 /* QuartzCore.framework in Frameworks */,
+				1BC52F1118A0799300CDF217 /* CoreMedia.framework in Frameworks */,
+				1BC52EDA18A078B200CDF217 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC52EF718A078B200CDF217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC52EFD18A078B200CDF217 /* Cocoa.framework in Frameworks */,
+				1BC52EFC18A078B200CDF217 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BC52ECD18A078B200CDF217 = {
+			isa = PBXGroup;
+			children = (
+				1BC52EDF18A078B200CDF217 /* Glove */,
+				1BC52F0018A078B200CDF217 /* GloveTests */,
+				1BC52ED818A078B200CDF217 /* Frameworks */,
+				1BC52ED718A078B200CDF217 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BC52ED718A078B200CDF217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BC52ED618A078B200CDF217 /* Glove.app */,
+				1BC52EFA18A078B200CDF217 /* GloveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BC52ED818A078B200CDF217 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BC52F1418A079A900CDF217 /* AVFoundation.framework */,
+				1BC52F1218A0799F00CDF217 /* QuartzCore.framework */,
+				1BC52F1018A0799300CDF217 /* CoreMedia.framework */,
+				1BC52ED918A078B200CDF217 /* Cocoa.framework */,
+				1BC52EFB18A078B200CDF217 /* XCTest.framework */,
+				1BC52EDB18A078B200CDF217 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BC52EDB18A078B200CDF217 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BC52EDC18A078B200CDF217 /* AppKit.framework */,
+				1BC52EDD18A078B200CDF217 /* CoreData.framework */,
+				1BC52EDE18A078B200CDF217 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1BC52EDF18A078B200CDF217 /* Glove */ = {
+			isa = PBXGroup;
+			children = (
+				1BC52EEB18A078B200CDF217 /* GLVDocument.h */,
+				1BC52EEC18A078B200CDF217 /* GLVDocument.m */,
+				1BC52EEE18A078B200CDF217 /* GLVDocument.xib */,
+				1BC52F1918A1CE3300CDF217 /* GLVOpenGLView.h */,
+				1BC52F1A18A1CE3300CDF217 /* GLVOpenGLView.m */,
+				1BC52EF118A078B200CDF217 /* MainMenu.xib */,
+				1BC52EF418A078B200CDF217 /* Images.xcassets */,
+				1BC52EE018A078B200CDF217 /* Supporting Files */,
+			);
+			path = Glove;
+			sourceTree = "<group>";
+		};
+		1BC52EE018A078B200CDF217 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BC52EE118A078B200CDF217 /* Glove-Info.plist */,
+				1BC52EE218A078B200CDF217 /* InfoPlist.strings */,
+				1BC52EE518A078B200CDF217 /* main.m */,
+				1BC52EE718A078B200CDF217 /* Glove-Prefix.pch */,
+				1BC52EE818A078B200CDF217 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BC52F0018A078B200CDF217 /* GloveTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BC52F0618A078B200CDF217 /* GloveTests.m */,
+				1BC52F0118A078B200CDF217 /* Supporting Files */,
+			);
+			path = GloveTests;
+			sourceTree = "<group>";
+		};
+		1BC52F0118A078B200CDF217 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BC52F0218A078B200CDF217 /* GloveTests-Info.plist */,
+				1BC52F0318A078B200CDF217 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BC52ED518A078B200CDF217 /* Glove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BC52F0A18A078B200CDF217 /* Build configuration list for PBXNativeTarget "Glove" */;
+			buildPhases = (
+				1BC52ED218A078B200CDF217 /* Sources */,
+				1BC52ED318A078B200CDF217 /* Frameworks */,
+				1BC52ED418A078B200CDF217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Glove;
+			productName = Glove;
+			productReference = 1BC52ED618A078B200CDF217 /* Glove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BC52EF918A078B200CDF217 /* GloveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BC52F0D18A078B200CDF217 /* Build configuration list for PBXNativeTarget "GloveTests" */;
+			buildPhases = (
+				1BC52EF618A078B200CDF217 /* Sources */,
+				1BC52EF718A078B200CDF217 /* Frameworks */,
+				1BC52EF818A078B200CDF217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BC52EFF18A078B200CDF217 /* PBXTargetDependency */,
+			);
+			name = GloveTests;
+			productName = GloveTests;
+			productReference = 1BC52EFA18A078B200CDF217 /* GloveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BC52ECE18A078B200CDF217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GLV;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "The Untrained Brain Co.";
+				TargetAttributes = {
+					1BC52EF918A078B200CDF217 = {
+						TestTargetID = 1BC52ED518A078B200CDF217;
+					};
+				};
+			};
+			buildConfigurationList = 1BC52ED118A078B200CDF217 /* Build configuration list for PBXProject "Glove" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BC52ECD18A078B200CDF217;
+			productRefGroup = 1BC52ED718A078B200CDF217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BC52ED518A078B200CDF217 /* Glove */,
+				1BC52EF918A078B200CDF217 /* GloveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BC52ED418A078B200CDF217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC52EE418A078B200CDF217 /* InfoPlist.strings in Resources */,
+				1BC52EF518A078B200CDF217 /* Images.xcassets in Resources */,
+				1BC52EEA18A078B200CDF217 /* Credits.rtf in Resources */,
+				1BC52EF018A078B200CDF217 /* GLVDocument.xib in Resources */,
+				1BC52EF318A078B200CDF217 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC52EF818A078B200CDF217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC52F0518A078B200CDF217 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BC52ED218A078B200CDF217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC52EED18A078B200CDF217 /* GLVDocument.m in Sources */,
+				1BC52EE618A078B200CDF217 /* main.m in Sources */,
+				1BC52F1B18A1CE3300CDF217 /* GLVOpenGLView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC52EF618A078B200CDF217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC52F0718A078B200CDF217 /* GloveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BC52EFF18A078B200CDF217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BC52ED518A078B200CDF217 /* Glove */;
+			targetProxy = 1BC52EFE18A078B200CDF217 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BC52EE218A078B200CDF217 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BC52EE318A078B200CDF217 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1BC52EE818A078B200CDF217 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BC52EE918A078B200CDF217 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1BC52EEE18A078B200CDF217 /* GLVDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BC52EEF18A078B200CDF217 /* Base */,
+			);
+			name = GLVDocument.xib;
+			sourceTree = "<group>";
+		};
+		1BC52EF118A078B200CDF217 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BC52EF218A078B200CDF217 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1BC52F0318A078B200CDF217 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BC52F0418A078B200CDF217 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BC52F0818A078B200CDF217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1BC52F0918A078B200CDF217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1BC52F0B18A078B200CDF217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glove/Glove-Prefix.pch";
+				INFOPLIST_FILE = "Glove/Glove-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1BC52F0C18A078B200CDF217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glove/Glove-Prefix.pch";
+				INFOPLIST_FILE = "Glove/Glove-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1BC52F0E18A078B200CDF217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Glove.app/Contents/MacOS/Glove";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glove/Glove-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GloveTests/GloveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1BC52F0F18A078B200CDF217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Glove.app/Contents/MacOS/Glove";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glove/Glove-Prefix.pch";
+				INFOPLIST_FILE = "GloveTests/GloveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BC52ED118A078B200CDF217 /* Build configuration list for PBXProject "Glove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC52F0818A078B200CDF217 /* Debug */,
+				1BC52F0918A078B200CDF217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC52F0A18A078B200CDF217 /* Build configuration list for PBXNativeTarget "Glove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC52F0B18A078B200CDF217 /* Debug */,
+				1BC52F0C18A078B200CDF217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC52F0D18A078B200CDF217 /* Build configuration list for PBXNativeTarget "GloveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC52F0E18A078B200CDF217 /* Debug */,
+				1BC52F0F18A078B200CDF217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BC52ECE18A078B200CDF217 /* Project object */;
+}
